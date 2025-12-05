@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Shell functions: $(declare -F | wc -l)"
+echo "Total variables: $(set | grep -c '^[a-zA-Z_][a-zA-Z0-9_]*=')"
