@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "=========================================="
+echo "Shell functions: $(declare -F | wc -l)"
